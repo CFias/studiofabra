@@ -1,0 +1,34 @@
+.inicio-container {
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.text-area {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  width: 500px;
+  height: 500px;
+  padding: 0 15rem;
+}
+.agendamento-btn {
+    background-color: rgb(153, 105, 0);
+    border: none;
+    padding: 20px 60px;
+}
+
+.image-area {
+  width: 500px;
+  height: 500px;
+  background: rgb(153, 105, 0);
+}
