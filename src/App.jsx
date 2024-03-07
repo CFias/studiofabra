@@ -1,5 +1,6 @@
 import "./App.css";
 import Footer from "./components/Footer";
+import Inicio from "./components/Inicio";
 import Navbar from "./components/Navbar";
 import { AppProvider } from "./contexts/AppContext";
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <AppProvider>
         <Navbar />
+        <Inicio />
         <Footer />
       </AppProvider>
     </>

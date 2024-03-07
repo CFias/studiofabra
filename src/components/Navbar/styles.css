@@ -1,0 +1,35 @@
+header {
+  height: 80px;
+  /* background-color: grey; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-options {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.nav-socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-socials .icon {
+  font-size: 5px;
+  padding: 6px;
+  background-color: rgb(153, 105, 0);
+  border-radius: 50px;
+  color: black;
+}
+
+.nav-socials .button {
+  padding: 12px;
+  background-color: rgb(153, 105, 0);
+  color: black;
+}
